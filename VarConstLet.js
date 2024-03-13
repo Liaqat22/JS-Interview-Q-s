@@ -33,7 +33,7 @@ Letfunc() // inside the scope , INSIDE
 
 // =============================================== CONST =====================================================
 
-// CONST : can not re-declared and updated with in its scope , we must initialize const along with its declaration (ES6)
+// CONST : can not be re-declared and can not be updated with in its scope , we must initialize const along with its declaration (ES6)
 
 // EXAMPLE 1 
 
