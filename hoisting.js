@@ -40,4 +40,4 @@ var functionExpression = function hoisting() {
 functionExpression() // output : hoisting with  function expression
 
 //  EXAMPLE - 5: function hoisting , with  function expression with "let" and "const" we get the error
-// ReferenceError: Cannot access 'functionExpression' before initialization
+// ReferenceError: Cannot access 'functionExpression' before initialization.
