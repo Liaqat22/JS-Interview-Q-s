@@ -3,6 +3,10 @@
 // >> we have put the common things to the parent class and
 //    rest of the things to each child class according to their nature as explained in the below examples
 
+
+
+//  ============================================= EXAMPLE 1 ====================================================
+
 class animals { // parent class
     alive = true
     eating() {
