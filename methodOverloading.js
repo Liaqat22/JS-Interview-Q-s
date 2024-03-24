@@ -1,3 +1,4 @@
+// Method Overriding : When a subclass provides a specific implementation of a method that is already defined in its superclass
 class parentclass{
 
     education(){
@@ -15,7 +16,7 @@ class childclass extends parentclass{
 
 const codeOutput = new childclass()
 
-codeOutput.education() // completed BSIT ,  due to method overloading
+codeOutput.education() // completed BSIT ,  due to method overridding
 
 // parentclass.prototype.education() // completed ICS 
 

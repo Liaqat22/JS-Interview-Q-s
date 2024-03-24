@@ -1,4 +1,4 @@
-// CLOSURE : a function with its lexical environment
+// CLOSURE : a function with its lexical environment , accessing variable from outside from its object scope 
 
 const main = () =>{
     let name1 = "good morning" 
