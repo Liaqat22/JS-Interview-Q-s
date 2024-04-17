@@ -63,19 +63,20 @@ class vehicles { // parent
     }
 }
 class newCar extends vehicles {
-    super(vehicle, modal) { // super() is used to call the constructor of parentClass from child or subclass
-        this.vehicletype = vehicle,
-            this.modal = modal
+    constructor(age, weight) {
+        super() // super() is used to call the constructor of parentClass from child or subclass
+        this.vehicleage = age,
+            this.weight = weight
     }
 
     train() {
-        console.log(`the vehical type is ${this.vehicletype} and modal is ${this.modal} `)
+        console.log(`the vehical  is ${this.vehicleage} and weight about ${this.weight} and ${this.color} in color `)
     }
 }
 
 const Bike = new vehicles("bike", "cd 70", "red", "max 3  passengers")
 const Car = new vehicles('car', 'hoda civic', 'white', 'hoda civic')
-const Newcar = new newCar("train", "hazara express")
+const Newcar = new newCar("30 years", "50 ton" , "green")
 
 // Bike.runcode()
 Car.runcode()
