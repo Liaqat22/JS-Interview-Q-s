@@ -8,6 +8,10 @@ const data = [
     { id: 3, name: "right", letters: 5 },
 ]
 
+//SOME
+const somedata = data.some(e => e.id === 0)
+console.log(somedata , "some") //true
+
 // FILTER : filtering the data which have less than 5 letters
 
 const filterdata = data.filter(item => item.letters < 5)
